@@ -16,8 +16,15 @@
   <li>log.dirs=/tmp/kafka-logs-0</li>
   <li>zookeeper.connect=172.31.56.216:2181</li>
   </ul>
-<li></li>
-<li></li>
+<li>kafka-broker-1</li>
+  <p>sudo nano kafka/config/server.properties</p>
+  <ul>
+  <li>broker.id=0</li>
+  <li>listeners=PLAINTEXT://172.31.50.25:9092</li>
+  <li>auto.create.topics.enable=false</li>
+  <li>log.dirs=/tmp/kafka-logs-0</li>
+  <li>zookeeper.connect=172.31.56.216:2181</li>
+  </ul>
 
 
 </ul>
