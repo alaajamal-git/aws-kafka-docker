@@ -34,5 +34,4 @@
   <li>log.dirs=/tmp/kafka-logs-2</li>
   <li>zookeeper.connect=172.31.56.216:2181</li>
   </ul>
-
 </ul>
