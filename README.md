@@ -35,3 +35,5 @@
   <li>zookeeper.connect=172.31.56.216:2181</li>
   </ul>
 </ul>
+<h3>Docekr Run Command</h3>
+  <p>docker run -d -e "spring.profiles.active=prod" -e "spring.cloud.config.uri=http://172.31.95.239:8012" -e "spring.rabbitmq.host=INTERNAL-CONTAINER-IP OR INSTANCE-IP" --network host DOCKERHUBNAME/IMAGE_NAME</p>
